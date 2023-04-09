@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Muro de Facebook</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="backround">
+    <div class="container">
+      <div class="comment-box">
+        <div class="comment-form">
+          <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/original/profile-icon-design-free-vector.jpg" 
+          width="50px"
+          height="50px"
+          alt="Profile Picture" class="profile-pic">
+          <div class="comment-input-container">
+            <textarea class="comment-input" placeholder="¿Qué estás pensando hoy?"></textarea>
+            <button class="submit-btn" disabled>Publicar</button>
+          </div>
+        </div>
+        <div class="comment-container"></div>
+      </div>
+    </div>
+    
+    <div class="modal-overlay">
+      <div class="modal">
+        <div class="modal-header">
+          <h3>Discución</h3>
+          <button class="close-btn">×</button>
+        </div>
+        <div class="modal-body">
+          <textarea class="modal-input" placeholder="El mundo tiene que saber lo que piensas"></textarea>
+          <button class="modal-submit-btn" disabled>Publicar</button>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
